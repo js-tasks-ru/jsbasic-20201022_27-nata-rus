@@ -14,4 +14,4 @@ function ucFirst(str) {
 }
 
 // alert( ucFirst (str) );
-console.log(str);
+// console.log(str);
