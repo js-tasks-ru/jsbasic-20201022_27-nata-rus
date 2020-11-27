@@ -4,5 +4,14 @@
  * @returns {Number}
  */
 function sumSalary(salaries) {
-  // ваш код...
+
+  let salary = 0;
+
+  for (let k in salaries) {
+    if (typeof salaries[k] == 'number') {
+      salary += salaries[k];
+    }
+  }
+
+  return salary;
 }
